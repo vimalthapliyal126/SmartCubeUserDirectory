@@ -12,7 +12,6 @@ import {
 import { withAuthenticator } from "@aws-amplify/ui-react";
 
 function App({user, signOut}) {
-  console.log(user.attributes.name);
   let navigate = useNavigate();
   const [pasEmployees, setPasEmployees] = useState();
   const [updateEmployee, setUpdateEmployee] = useState();
