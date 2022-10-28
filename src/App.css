@@ -44,12 +44,15 @@
   background: #fff;
   text-align: left;
 }
-.App-header p.amplify-text {
+/* .App-header p.amplify-text {
   color: #fff !important;
 }
 .amplify-collection-items p.amplify-text {
   color: #202020 !important;
-}
+} */
 .amplify-pagination__item-button{
+  color: #fff !important;
+}
+#root > div > div > section > div > div:nth-child(2) > p {
   color: #fff !important;
 }

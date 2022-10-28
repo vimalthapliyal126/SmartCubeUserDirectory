@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,300,400,600,700ap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Fira Sans",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +13,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root, [data-amplify-theme] {
+  --amplify-components-button-primary-background-color: #00b19c !important;
+  --amplify-components-button-primary-hover-background-color: #00b19c !important;
+  --amplify-components-tabs-item-active-color: #00b19c !important;
+  --amplify-colors-font-hover: #00b19c !important;
+  --amplify-components-button-link-color: #00b19c !important;
+  --amplify-components-fieldcontrol-border-radius: 0 !important;
+  --amplify-components-button-border-radius: 0 !important;
+  --amplify-components-tabs-item-active-border-color: #00b19c !important;
+  /* --amplify-components-tabs-item-color: #002035 !important; */
+  --amplify-colors-neutral-10: #eee !important;
+ }
